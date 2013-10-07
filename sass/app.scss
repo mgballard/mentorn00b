@@ -54,3 +54,76 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+@import "compass";
+.clearfix {
+	@include clearfix();
+}
+.connections {
+	margin-bottom:0px;
+	list-style-type:none;
+}
+.connections > li:first-child {
+	border-top:1px dashed #c0c0c0;
+}
+.connections > li:nth-child(odd) {
+	border-left:1px dashed #c0c0c0;
+	border-bottom:1px dashed #c0c0c0;
+	padding-left:0.625em;
+}
+.connections > li:nth-child(even) {
+	border-right:1px dashed #c0c0c0;
+	border-bottom:1px dashed #c0c0c0;
+	padding-left:0.625em;
+}
+.circlecrop {
+// needs latest Compass, add '@import "compass"' to your scss
+//@include filter-gradient(#eeeeee, #bfcccc, vertical); // IE6-9
+//@include background-image(linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,0.75) 100%));
+} 
+.circlecrop > li  {
+	padding-top:0.625em;
+	padding-bottom:0.625em;
+}
+.circlecrop li {
+	background-image:url('../img/sprite.png');
+	background-repeat:no-repeat;
+	background-position:70px -597px;
+}
+.circlecrop li:last-child {
+	background:none;
+}
+.circle { 
+ 	border:2px dotted #59595b;
+ 	width:70px;
+	height:70px;
+ 	border-radius:35px;
+}
+.circle > a {
+	display:block;
+	width:60px;
+	height:60px;
+ 	border-radius:52px;
+ 	background-repeat:no-repeat;
+ 	background-size:100% 100%;
+ 	margin-top:3px;
+ 	margin-left:3px;
+ 	text-indent:-9000px;
+}
+form.main input,
+form.main span,
+form.main a {
+	float:left;
+	display:block;
+	margin:0 0 1em 0;
+	padding:0.5em;
+	height:2.3125em;
+	font-size:0.875em;
+}
+form.main input {
+	width:9em;
+}
+form.main span, 
+form.main a {
+	border:1px solid #f2f2f2;
+}
+
