@@ -7288,7 +7288,33 @@ a.th {
   text-indent: -9000px;
 }
 
-/* line 114, ../sass/app.scss */
+/* line 113, ../sass/app.scss */
+.circlecrop.freestyle li {
+  background-image: none;
+}
+
+/* line 116, ../sass/app.scss */
+.circlecrop.freestyle .circle {
+  margin: 0 auto;
+}
+
+/* line 119, ../sass/app.scss */
+.circlecrop.freestyle li .circle {
+  transition: background-color 0.5s ease;
+  background-color: white;
+}
+
+/* line 123, ../sass/app.scss */
+.circlecrop.freestyle li:hover .circle {
+  background-color: orange;
+}
+
+/* line 126, ../sass/app.scss */
+.circlecrop.freestyle li .details {
+  text-align: center;
+}
+
+/* line 135, ../sass/app.scss */
 form.main input,
 form.main span,
 form.main a {
@@ -7300,13 +7326,20 @@ form.main a {
   font-size: 0.875em;
 }
 
-/* line 122, ../sass/app.scss */
+/* line 143, ../sass/app.scss */
 form.main input {
   width: 9em;
 }
 
-/* line 126, ../sass/app.scss */
+/* line 147, ../sass/app.scss */
 form.main span,
 form.main a {
   border: 1px solid #f2f2f2;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 153, ../sass/app.scss */
+  .large-6 .rt-border {
+    border-right: 1px dashed #c0c0c0;
+  }
 }

@@ -109,6 +109,27 @@
  	margin-left:3px;
  	text-indent:-9000px;
 }
+
+.circlecrop.freestyle li {
+	background-image:none;
+}
+.circlecrop.freestyle .circle {
+	margin:0 auto;
+}
+.circlecrop.freestyle li .circle {
+	transition: background-color 0.5s ease;
+	background-color: white;
+}
+.circlecrop.freestyle li:hover .circle {
+	background-color: orange;
+}
+.circlecrop.freestyle li .details {
+	text-align:center;
+}
+
+
+
+
 form.main input,
 form.main span,
 form.main a {
@@ -127,3 +148,9 @@ form.main a {
 	border:1px solid #f2f2f2;
 }
 
+
+@media only screen and (min-width: 768px) {
+	.large-6 .rt-border {
+		border-right:1px dashed #c0c0c0;
+	}
+}
