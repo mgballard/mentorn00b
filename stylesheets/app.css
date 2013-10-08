@@ -7310,14 +7310,23 @@ a.th {
 }
 
 /* line 126, ../sass/app.scss */
+.circlecrop.freestyle li:hover .circle.you {
+  background-color: red;
+}
+
+/* line 129, ../sass/app.scss */
+.circlecrop.freestyle li .circle.selected {
+  background-color: #90EE90;
+}
+
+/* line 132, ../sass/app.scss */
 .circlecrop.freestyle li .details {
   text-align: center;
 }
 
-/* line 135, ../sass/app.scss */
+/* line 140, ../sass/app.scss */
 form.main input,
-form.main span,
-form.main a {
+form.main span {
   float: left;
   display: block;
   margin: 0 0 1em 0;
@@ -7326,19 +7335,18 @@ form.main a {
   font-size: 0.875em;
 }
 
-/* line 143, ../sass/app.scss */
+/* line 148, ../sass/app.scss */
 form.main input {
   width: 9em;
 }
 
-/* line 147, ../sass/app.scss */
-form.main span,
-form.main a {
+/* line 151, ../sass/app.scss */
+form.main span {
   border: 1px solid #f2f2f2;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 153, ../sass/app.scss */
+  /* line 157, ../sass/app.scss */
   .large-6 .rt-border {
     border-right: 1px dashed #c0c0c0;
   }

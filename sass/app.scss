@@ -123,6 +123,12 @@
 .circlecrop.freestyle li:hover .circle {
 	background-color: orange;
 }
+.circlecrop.freestyle li:hover .circle.you {
+	background-color: red;
+}
+.circlecrop.freestyle li .circle.selected {
+	background-color: #90EE90;
+}
 .circlecrop.freestyle li .details {
 	text-align:center;
 }
@@ -131,8 +137,7 @@
 
 
 form.main input,
-form.main span,
-form.main a {
+form.main span {
 	float:left;
 	display:block;
 	margin:0 0 1em 0;
@@ -143,8 +148,7 @@ form.main a {
 form.main input {
 	width:9em;
 }
-form.main span, 
-form.main a {
+form.main span {
 	border:1px solid #f2f2f2;
 }
 
